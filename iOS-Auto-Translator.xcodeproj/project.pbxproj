@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		08C93AF12DB0F06F00EB7034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C93AD82DB0F06D00EB7034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C93ADF2DB0F06D00EB7034;
+			remoteInfo = "iOS-Auto-Translator";
+		};
+		08C93AFB2DB0F06F00EB7034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08C93AD82DB0F06D00EB7034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08C93ADF2DB0F06D00EB7034;
+			remoteInfo = "iOS-Auto-Translator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C93AE02DB0F06D00EB7034 /* iOS-Auto-Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Auto-Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C93AF02DB0F06F00EB7034 /* iOS-Auto-TranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Auto-TranslatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C93AFA2DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Auto-TranslatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		08C93AE22DB0F06D00EB7034 /* iOS-Auto-Translator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-Auto-Translator";
+			sourceTree = "<group>";
+		};
+		08C93AF32DB0F06F00EB7034 /* iOS-Auto-TranslatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-Auto-TranslatorTests";
+			sourceTree = "<group>";
+		};
+		08C93AFD2DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-Auto-TranslatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C93ADD2DB0F06D00EB7034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C93AED2DB0F06F00EB7034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C93AF72DB0F06F00EB7034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C93AD72DB0F06D00EB7034 = {
+			isa = PBXGroup;
+			children = (
+				08C93AE22DB0F06D00EB7034 /* iOS-Auto-Translator */,
+				08C93AF32DB0F06F00EB7034 /* iOS-Auto-TranslatorTests */,
+				08C93AFD2DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests */,
+				08C93AE12DB0F06D00EB7034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08C93AE12DB0F06D00EB7034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C93AE02DB0F06D00EB7034 /* iOS-Auto-Translator.app */,
+				08C93AF02DB0F06F00EB7034 /* iOS-Auto-TranslatorTests.xctest */,
+				08C93AFA2DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08C93ADF2DB0F06D00EB7034 /* iOS-Auto-Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C93B042DB0F06F00EB7034 /* Build configuration list for PBXNativeTarget "iOS-Auto-Translator" */;
+			buildPhases = (
+				08C93ADC2DB0F06D00EB7034 /* Sources */,
+				08C93ADD2DB0F06D00EB7034 /* Frameworks */,
+				08C93ADE2DB0F06D00EB7034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				08C93AE22DB0F06D00EB7034 /* iOS-Auto-Translator */,
+			);
+			name = "iOS-Auto-Translator";
+			packageProductDependencies = (
+			);
+			productName = "iOS-Auto-Translator";
+			productReference = 08C93AE02DB0F06D00EB7034 /* iOS-Auto-Translator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08C93AEF2DB0F06F00EB7034 /* iOS-Auto-TranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C93B072DB0F06F00EB7034 /* Build configuration list for PBXNativeTarget "iOS-Auto-TranslatorTests" */;
+			buildPhases = (
+				08C93AEC2DB0F06F00EB7034 /* Sources */,
+				08C93AED2DB0F06F00EB7034 /* Frameworks */,
+				08C93AEE2DB0F06F00EB7034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C93AF22DB0F06F00EB7034 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				08C93AF32DB0F06F00EB7034 /* iOS-Auto-TranslatorTests */,
+			);
+			name = "iOS-Auto-TranslatorTests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-Auto-TranslatorTests";
+			productReference = 08C93AF02DB0F06F00EB7034 /* iOS-Auto-TranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08C93AF92DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C93B0A2DB0F06F00EB7034 /* Build configuration list for PBXNativeTarget "iOS-Auto-TranslatorUITests" */;
+			buildPhases = (
+				08C93AF62DB0F06F00EB7034 /* Sources */,
+				08C93AF72DB0F06F00EB7034 /* Frameworks */,
+				08C93AF82DB0F06F00EB7034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C93AFC2DB0F06F00EB7034 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				08C93AFD2DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests */,
+			);
+			name = "iOS-Auto-TranslatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-Auto-TranslatorUITests";
+			productReference = 08C93AFA2DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08C93AD82DB0F06D00EB7034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					08C93ADF2DB0F06D00EB7034 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					08C93AEF2DB0F06F00EB7034 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 08C93ADF2DB0F06D00EB7034;
+					};
+					08C93AF92DB0F06F00EB7034 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 08C93ADF2DB0F06D00EB7034;
+					};
+				};
+			};
+			buildConfigurationList = 08C93ADB2DB0F06D00EB7034 /* Build configuration list for PBXProject "iOS-Auto-Translator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08C93AD72DB0F06D00EB7034;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 08C93AE12DB0F06D00EB7034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08C93ADF2DB0F06D00EB7034 /* iOS-Auto-Translator */,
+				08C93AEF2DB0F06F00EB7034 /* iOS-Auto-TranslatorTests */,
+				08C93AF92DB0F06F00EB7034 /* iOS-Auto-TranslatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08C93ADE2DB0F06D00EB7034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C93AEE2DB0F06F00EB7034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C93AF82DB0F06F00EB7034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C93ADC2DB0F06D00EB7034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C93AEC2DB0F06F00EB7034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08C93AF62DB0F06F00EB7034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08C93AF22DB0F06F00EB7034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C93ADF2DB0F06D00EB7034 /* iOS-Auto-Translator */;
+			targetProxy = 08C93AF12DB0F06F00EB7034 /* PBXContainerItemProxy */;
+		};
+		08C93AFC2DB0F06F00EB7034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08C93ADF2DB0F06D00EB7034 /* iOS-Auto-Translator */;
+			targetProxy = 08C93AFB2DB0F06F00EB7034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C93B022DB0F06F00EB7034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08C93B032DB0F06F00EB7034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08C93B052DB0F06F00EB7034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Auto-Translator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Auto-Translator.iOS-Auto-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08C93B062DB0F06F00EB7034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-Auto-Translator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Auto-Translator.iOS-Auto-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08C93B082DB0F06F00EB7034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Auto-Translator.iOS-Auto-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Auto-Translator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Auto-Translator";
+			};
+			name = Debug;
+		};
+		08C93B092DB0F06F00EB7034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Auto-Translator.iOS-Auto-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Auto-Translator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Auto-Translator";
+			};
+			name = Release;
+		};
+		08C93B0B2DB0F06F00EB7034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Auto-Translator.iOS-Auto-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Auto-Translator";
+			};
+			name = Debug;
+		};
+		08C93B0C2DB0F06F00EB7034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Auto-Translator.iOS-Auto-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Auto-Translator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C93ADB2DB0F06D00EB7034 /* Build configuration list for PBXProject "iOS-Auto-Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C93B022DB0F06F00EB7034 /* Debug */,
+				08C93B032DB0F06F00EB7034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C93B042DB0F06F00EB7034 /* Build configuration list for PBXNativeTarget "iOS-Auto-Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C93B052DB0F06F00EB7034 /* Debug */,
+				08C93B062DB0F06F00EB7034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C93B072DB0F06F00EB7034 /* Build configuration list for PBXNativeTarget "iOS-Auto-TranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C93B082DB0F06F00EB7034 /* Debug */,
+				08C93B092DB0F06F00EB7034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C93B0A2DB0F06F00EB7034 /* Build configuration list for PBXNativeTarget "iOS-Auto-TranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C93B0B2DB0F06F00EB7034 /* Debug */,
+				08C93B0C2DB0F06F00EB7034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08C93AD82DB0F06D00EB7034 /* Project object */;
+}
